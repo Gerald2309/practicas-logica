@@ -8,15 +8,12 @@ public class ContarLetras3 {
 
         for (char letra : texto.toLowerCase().toCharArray()) {
 
-            // Validación temprana: ignorar espacios
             if (letra == ' ') {
                 continue;
             }
 
-            // Obtener valor actual o 0 si no existe
             int cantidadActual = conteo.getOrDefault(letra, 0);
 
-            // Actualizar conteo
             conteo.put(letra, cantidadActual + 1);
         }
 
