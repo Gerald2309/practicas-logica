@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Map;
 
 public class Main {
@@ -9,10 +10,22 @@ public class Main {
 //        int cantidadVocales = vocales2.contarVocales("Hola, mi nombre es Geraldine");
 //        System.out.println("La palabra/frase indicada tiene "+ cantidadVocales + " vocales");
 
-        Map<Character, Integer> resultado =
-                ContarLetras3.contarLetras("Holaa ola b");
+//        Map<Character, Integer> resultado =
+//                ContarLetras3.contarLetras("Holaa ola b");
+//
+//        System.out.println(resultado);
 
-        System.out.println(resultado);
+//        ArrayList<String> lista = new ArrayList<>();
+//
+//        lista.add("a");
+//        lista.add("b");
+//        lista.add("c");
+//        lista.add("a");
+//
+//        ArrayList<String> resultado = EliminarDuplicados4.eliminarDuplicados(lista);
+//        System.out.println(resultado);
+
+
 
     }
 }
