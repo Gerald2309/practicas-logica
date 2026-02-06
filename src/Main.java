@@ -28,15 +28,19 @@ public class Main {
         ArrayList<Integer> datos = new ArrayList<>();
 
         datos.add(4);
-        datos.add(4);
+        datos.add(7);
         datos.add(3);
         datos.add(5);
         datos.add(5);
         datos.add(5);
         datos.add(6);
+        datos.add(6);
 
-        ArrayList<Integer> unicos =  EncontrarUnicos5.encontrarUnicos(datos);
-        System.out.println(unicos.getFirst());
+//        ArrayList<Integer> unicos =  EncontrarUnicos5.encontrarUnicos(datos);
+//        System.out.println(unicos.getFirst());
+
+        int repetido = PrimerRepetido6.primerRepetido(datos);
+        System.out.println(repetido);
 
 
     }
